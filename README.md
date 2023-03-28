@@ -1,7 +1,7 @@
 # Nuxt-Dojo
 
 A shop for the ninjas ! <br/>
-![demo video](./demo.gif)
+![demo video](./demo.gif)<br/>
 Have a look at it [here.](https://aquamarine-kleicha-0899ce.netlify.app)
 
 # Description
