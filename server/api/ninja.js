@@ -10,9 +10,9 @@ export default defineEventHandler(async (event) => {
   //   };
 
   //api call with private key
-  const apiKey = "QTwL7thOpWMFanF8eOgrWBPZfISxhCryw9Ec6DFc";
+  const { currencyKey } = useRuntimeConfig();
   const { data } = await $fetch(
-    `https://api.currencyapi.com/v3/latest?apikey=${apiKey}`
+    `https://api.currencyapi.com/v3/latest?apikey=${currencyKey}`
   );
 
   return { data };

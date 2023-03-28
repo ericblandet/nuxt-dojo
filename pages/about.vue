@@ -15,6 +15,6 @@
   //   method: "post",
   //   body: { age: 36 },
   // });
-  const { data } = await useFetch("/api/ninja");
+  const { data } = await useFetch("/api/currency/CHF");
 </script>
 <style></style>
